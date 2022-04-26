@@ -1,0 +1,9 @@
+.AuthFormFooterPara {
+  color: red;
+}
+.AuthFormFooter {
+  background-color: black;
+  margin-top: 400px;
+  text-align: center;
+  height: 80px;
+}

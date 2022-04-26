@@ -1,0 +1,53 @@
+.educational-grid-container {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 33% 33% 33%;
+  grid-template-columns: 33% 33% 33%;
+  text-align: center;
+  grid-column-gap: 1px;
+  background-image: linear-gradient(to top right, white, black, navy);
+  row-gap: 200px;
+  padding: 20px;
+  box-sizing: border-box;
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  height: 1200px;
+  position: relative;
+}
+
+.book4 {
+  background-image: url("../assets/images/book4.jpg");
+  background-repeat: no-repeat;
+  background-size: 400px;
+  width: 400px;
+  background-color: rgb(221, 120, 137);
+  color: black;
+  background-position: 0px -100px;
+  margin-left: -10px;
+  height: 500px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.book5 {
+  background-image: url("../assets/images/book5.jpg");
+  background-size: 400px;
+  width: 400px;
+  background-repeat: no-repeat;
+  background-color: rgb(69, 69, 112);
+  height: 500px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.book6 {
+  background-image: url("../assets/images/book6.jpg");
+  background-size: 400px;
+  width: 400px;
+  background-repeat: no-repeat;
+  margin-left: 10px;
+  background-color: lightskyblue;
+  background-position: 0px -10px;
+  height: 500px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}

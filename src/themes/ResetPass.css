@@ -1,0 +1,23 @@
+.ResetContainer {
+  /* background-image: linear-gradient(to bottom right, white, black, navy, black, white, black, maroon, black, white, black, navy, black, white, black, maroon, black); */
+  background-image: linear-gradient(to top right, black, lightblue, black, lightblue);
+  height: 900px;
+}
+.ResetContainer label {
+  display: inline-block;
+  width: 150px;
+}
+
+.ResetMainHeading {
+  margin-left: 600px;
+  color: white;
+}
+
+.ResetSubmit {
+  background-color: navy;
+  height: 30px;
+  width: 10%;
+  margin-left: 498px;
+  color: white;
+  font-weight: bold;
+}

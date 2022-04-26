@@ -1,0 +1,506 @@
+@keyframes specialText {
+  0% {
+    opacity: 1;
+    transform: translateX(0px);
+    text-shadow: (5px, 5px, 5px, navy);
+  }
+  50% {
+    opacity: 1;
+    /* transform: translateX(0px) scale(2); */
+    color: navy;
+    text-shadow: (5px, 50px, 5px, navy);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(3);
+    color: black;
+  }
+}
+.HomeContentContainer {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "sideBar content content"
+    "sideBar content content"
+    "sideBar content content"
+    "footer footer footer";
+}
+.HomeContainer {
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 2000px;
+  width: 100%;
+  background-image: linear-gradient(to right, navy, black, orangered);
+}
+.side-bar {
+  grid-area: sideBar;
+  color: white;
+  width: 29%;
+  height: 100%;
+  padding: 10px;
+  margin-left: 1%;
+  background-color: orangered;
+  float: left;
+  box-sizing: border-box;
+}
+.mainDisplay {
+  width: 70%;
+  float: right;
+  grid-area: content;
+  height: 100%;
+  box-sizing: border-box;
+  background-image: url("../assets/images/yinyang.jpg");
+  background-repeat: no-repeat;
+  background-size: 500px 500px;
+  background-position: 200px 150px;
+  background-color: black;
+  position: relative;
+}
+
+.commingSoon {
+  height: 400px;
+  width: 100%;
+  position: absolute;
+  top: 750px;
+  color: white;
+  padding-left: 100px;
+}
+.companyName {
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  left: 300px;
+}
+.partners {
+  font-family: monospace;
+}
+
+.btnAndHands {
+  width: 50%;
+  margin-left: 300px;
+  margin-top: 200px;
+  background-color: green;
+  height: 400px;
+}
+.hands {
+  width: 100%;
+  height: 500px;
+  background-image: url("../assets/images/waiter.png");
+  /* background-size: 800px 500px; */
+  background-size: 600px 300px;
+  background-position: 0 160px;
+  margin-top: 100px;
+  margin-left: -180px;
+  background-repeat: no-repeat;
+  font-size: 60px;
+  color: white;
+}
+.myButtons {
+  height: 400px;
+  margin-left: 150px;
+  margin-top: 100px;
+  width: 100%;
+  /* position: relative; */
+}
+.grid-container {
+  width: 100%;
+  margin-left: 20px;
+  /* width: 80%;
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 50% 16% 16% 16%;
+
+  grid-area: content;
+  text-align: center;
+  grid-column-gap: 1px;
+  background-image: url("../assets/images/openbook5.jpg");
+  background-size: 1200px 660px;
+  background-position: 300px 20px;
+  background-repeat: no-repeat;
+  row-gap: 200px;
+  padding: 20px;
+  box-sizing: border-box;
+  color: black;
+  font-size: 90px;
+  font-weight: bold;
+  height: 700px;
+  position: relative; */
+}
+
+/* @media screen and (max-width: 1290px) {
+      .grid-container {
+        width: 80%;
+        height: 20px;
+      }
+    } */
+
+.best {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-image: url("../assets/images/sky3.jpg");
+  /* background-repeat: no-repeat; */
+  height: 300px;
+  width: 100%;
+  box-sizing: border-box;
+  display: grid;
+  grid-area: header;
+  grid-template-columns: 10% 20% 20% 20% 20%;
+  text-align: center;
+  grid-column-gap: 1px;
+  row-gap: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+.best-sellers {
+  margin-right: -40px;
+  margin-top: 80px;
+}
+
+.cat1 {
+  background-image: url("../assets/images/shock.jpg");
+  width: 200px;
+  background-color: rgb(221, 120, 137);
+  color: black;
+  background-size: 200px 300px;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  margin-left: -180px;
+  transform: rotate(-10deg);
+  height: 200px;
+
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-size: 30px;
+}
+.cat1:hover {
+  background-size: 300px 400px;
+  margin-left: -200px;
+  height: 300px;
+  transform: scale(2) translateY(-100px);
+}
+
+.cat2 {
+  background-image: url("../assets/images/graduate.webp");
+  width: 200px;
+  background-color: rgb(221, 120, 137);
+  color: black;
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  margin-left: -300px;
+  height: 200px;
+  font-size: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.cat2:hover {
+  background-size: 200px 200px;
+  margin-left: -350px;
+  height: 200px;
+  transform: scale(2) translateY(-100px);
+}
+
+.cat3 {
+  background-image: url("../assets/images/kids.png");
+  width: 200px;
+  background-color: lightblue;
+  color: black;
+  background-size: 200px 300px;
+  background-repeat: no-repeat;
+  background-position: 0px 30px;
+  margin-left: -450px;
+  margin-top: 30px;
+  height: 200px;
+
+  transform: rotate(20deg);
+  font-size: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.cat3:hover {
+  background-size: 200px 200px;
+  margin-left: -550px;
+  height: 200px;
+  background-position: 0px 30px;
+  transform: scale(2) translateY(-100px);
+}
+
+.Hard-cover {
+  background-image: url("../assets/images/hardcover2.webp");
+  width: 200px;
+  background-color: rgb(221, 120, 137);
+  color: white;
+  background-size: 200px 300px;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  /* margin-left: -10px;
+  margin-top: -10px; */
+  /* transform: rotate(-10deg); */
+  height: 200px;
+  position: absolute;
+  top: -450px;
+  left: 70px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-size: 30px;
+}
+.Hard-cover:hover {
+  color: white;
+  background-size: 200px 400px;
+  height: 200px;
+  transform: scale(2);
+}
+
+.E-books {
+  background-image: url("../assets/images/ebook.jpg");
+  position: absolute;
+  /* top: 100px; */
+  width: 200px;
+  background-color: rgb(221, 120, 137);
+  color: black;
+  top: -450px;
+  left: 70px;
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  /* margin-left: -10px; */
+  /* margin-top: -10px; */
+  height: 200px;
+  font-size: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.E-books:hover {
+  background-size: 200px 200px;
+  /* margin-left: -100px; */
+  height: 200px;
+  transform: scale(2);
+}
+
+.Paperback {
+  background-image: url("../assets/images/paperback2.jpg");
+  width: 200px;
+  color: black;
+  background-size: 300px 250px;
+  background-repeat: no-repeat;
+  background-position: -50px -30px;
+  height: 200px;
+  font-size: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  top: -450px;
+  left: 50px;
+  position: absolute;
+  /* margin-left: -10px;  */
+  /* background-color: black; */
+  /* margin-top: -10px; */
+  /* transform: rotate(20deg); */
+}
+
+.Paperback:hover {
+  background-size: 200px 200px;
+  /* margin-left: -80px; */
+  margin-top: 30px;
+  height: 200px;
+  background-position: 0px -10px;
+  transform: scale(2);
+}
+
+.best1 {
+  background-image: url("../assets/images/book2.jpg");
+  margin-top: 30px;
+  margin-left: 10px;
+  width: 100%;
+  height: 900px;
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+}
+
+.best2 {
+  background-image: url("../assets/images/book1.jpg");
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 100%;
+  height: 900px;
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+}
+.best3 {
+  background-image: url("../assets/images/book3.jpg");
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 100%;
+  height: 900px;
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+}
+
+.currentTime {
+  width: 80%;
+  margin-left: 10px;
+  margin-top: 90px;
+  font-size: 50px;
+  height: 80px;
+  border-radius: 50px;
+  border: 1px solid black;
+  color: green;
+  background-color: black;
+  height: 100px;
+}
+.countDown {
+  padding-left: 15%;
+  box-sizing: border-box;
+  width: 80%;
+  margin-left: 30px;
+  margin-top: 9px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  height: 80px;
+  border-radius: 50px;
+  border: 1px solid black;
+  color: green;
+  background-color: black;
+  height: 100px;
+}
+
+.specials {
+  padding: 16px;
+}
+.specials-para {
+  font-size: 20px;
+  padding: 20px;
+  color: white;
+  animation-name: specialText;
+  animation-duration: 3s;
+  animation-fill-mode: backwards;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+}
+.toTop-btn {
+  background-color: green;
+  width: 200px;
+  height: 90px;
+  float: right;
+  margin-right: 15px;
+  border-radius: 20px;
+  color: white;
+}
+.moreInfo {
+  font-weight: bold;
+  height: 200px;
+  width: 50%;
+  font-size: 20px;
+  margin-top: 1px;
+  margin-left: 20px;
+  position: relative;
+  border-radius: 20px;
+  padding: 5px;
+}
+.moreInfo a {
+  color: white;
+  text-decoration: none;
+}
+.moreInfoSub {
+  position: absolute;
+  top: 0px;
+}
+.moreInfoMain {
+  width: 100%;
+  grid-area: footer;
+  background-image: linear-gradient(to right, navy, black, orangered);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 600px;
+}
+
+/* @media screen and (max-width: 769) {
+  .side-bar {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1200) {
+  .catergoryDisplay {
+    background-color: red;
+    width: 100%;
+  }
+}
+@media screen and (max-height: 1024px) {
+  .catergoryDisplay {
+    margin-left: -1000px;
+  }
+}
+.sub-btn {
+  background-color: green;
+  height: 300px;
+  width: 300px;
+} */
+
+@media screen and (max-width: 1300px) {
+  .side-bar {
+    width: 50%;
+    grid-area: content;
+    background-color: green;
+  }
+  .partners {
+    margin-left: -70px;
+  }
+  .thomson {
+    margin-left: -90px;
+  }
+  .hachette {
+    margin-left: -90px;
+    padding-left: 20px;
+  }
+  .pengiun {
+    margin-left: -90px;
+  }
+  .motto {
+    position: absolute;
+    bottom: 400px;
+  }
+
+  .mainDisplay {
+    background-size: contain;
+    width: 50%;
+    grid-area: sideBar;
+    margin-left: -2000px;
+  }
+  .moreInfoMain {
+    background-image: url("../assets/images/chess2.webp");
+  }
+  /* .myButtons {
+    margin-left: -1800px;
+  } */
+  .Paperback {
+    width: 50%;
+    font-size: 50%;
+    height: 20%;
+    margin-left: -200px;
+  }
+  .E-books {
+    width: 50%;
+    font-size: 50%;
+    height: 20%;
+    margin-left: -200px;
+  }
+  .Hard-cover {
+    width: 50%;
+    font-size: 50%;
+    height: 20%;
+    margin-left: -200px;
+  }
+  .hands {
+    width: 10%;
+  }
+  .best {
+    width: 105%;
+  }
+}

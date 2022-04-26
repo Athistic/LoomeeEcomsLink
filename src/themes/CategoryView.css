@@ -1,0 +1,196 @@
+/* .warOfTwoQueens {
+  background-image: url("../assets/images/book1.jpg");
+  background-size: 300px 490px;
+  background-position: 0px 0px;
+  width: 300px;
+  background-color: rgb(221, 120, 137);
+  color: white;
+  margin-left: -10px;
+  height: 400px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.tangledInYou {
+  background-image: url("../assets/images/book2.jpg");
+  background-size: 300px 490px;
+  background-position: 0px 0px;
+  width: 300px;
+  background-color: rgb(221, 120, 137);
+  color: white;
+  margin-left: -10px;
+  height: 400px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.theStepChild {
+  background-image: url("../assets/images/book3.jpg");
+  background-size: 300px 490px;
+  background-position: 0px 0px;
+  width: 300px;
+  background-color: rgb(221, 120, 137);
+  color: white;
+  margin-left: -10px;
+  height: 400px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.javaInANutshell {
+  background-image: url("../assets/images/book4.jpg");
+  background-size: 300px 490px;
+  background-position: 0px -10px;
+  width: 300px;
+  background-color: rgb(221, 120, 137);
+  color: white;
+  margin-left: -10px;
+  height: 400px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.accountPrinciples {
+  background-image: url("../assets/images/book5.jpg");
+  background-size: 300px 490px;
+  background-position: 0px 0px;
+  width: 300px;
+  background-color: rgb(221, 120, 137);
+  color: white;
+  margin-left: -10px;
+  height: 400px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.theLawOfContract {
+  background-image: url("../assets/images/book6.jpg");
+  background-size: 300px 490px;
+  background-position: 0px 0px;
+  width: 300px;
+  background-color: rgb(221, 120, 137);
+  color: white;
+  margin-left: -10px;
+  height: 400px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.peterPan {
+  background-image: url("../assets/images/book7.jpg");
+  background-size: 400px 490px;
+  background-position: -50px 0px;
+  width: 300px;
+  background-color: rgb(221, 120, 137);
+  color: white;
+  margin-left: -10px;
+  height: 400px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.aladdin {
+  background-image: url("../assets/images/book8.jpg");
+  background-size: 400px 490px;
+  background-position: -50px 0px;
+  width: 300px;
+  background-color: rgb(221, 120, 137);
+  color: white;
+  margin-left: -10px;
+  height: 400px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.hercules {
+  background-image: url("../assets/images/book9.jpg");
+  background-repeat: no-repeat;
+  background-size: 300px 490px;
+  background-position: 0px 0px;
+  width: 300px;
+  background-color: rgb(221, 120, 137);
+  color: white;
+  margin-left: -10px;
+  height: 400px;
+  box-sizing: border-box;
+  border-radius: 10px;
+} */
+.catergoryDisplay {
+  display: grid;
+  margin-left: 1000px;
+  margin-top: 80px;
+  grid-template-rows: 33% 33% 33%;
+  grid-template-columns: 33% 33% 33%;
+  text-align: center;
+  grid-column-gap: 1px;
+  background-image: linear-gradient(to top right, black, lightblue, black);
+  row-gap: 1px;
+  padding: 20px;
+  box-sizing: border-box;
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  height: 1000px;
+  position: relative;
+}
+
+@media screen and (max-width: 769) {
+  .catergoryDisplay {
+    width: 100%;
+    float: right;
+  }
+}
+
+@media screen and (max-width: 1200) {
+  .catergoryDisplay {
+    background-color: red;
+    width: 100%;
+  }
+}
+@media screen and (max-height: 1024px) {
+  .catergoryDisplay {
+    margin-left: -600px;
+  }
+}
+.sub-btn {
+  background-color: green;
+  height: 300px;
+  width: 300px;
+}
+
+.Kids {
+  background-image: url("../assets/images/kids.png");
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  background-position: 120px 200px;
+  width: 400px;
+  background-color: lightblue;
+  color: lightblue;
+  font-weight: bold;
+  margin-left: -10px;
+  height: 500px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.Novels {
+  background-image: url("../assets/images/shock.jpg");
+  background-repeat: no-repeat;
+  background-size: 600px 590px;
+  background-position: -120px 0px;
+  width: 400px;
+  color: black;
+  font-weight: bold;
+  margin-left: -10px;
+  height: 500px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.Educational {
+  background-image: url("../assets/images/educational.jpg");
+  background-repeat: no-repeat;
+  background-size: 600px 590px;
+  background-position: -120px 0px;
+  width: 400px;
+  background-color: rgb(221, 120, 137);
+  color: black;
+  font-weight: bold;
+  margin-left: -10px;
+  height: 500px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}

@@ -1,0 +1,15 @@
+.UserProfileContainer {
+  background-color: lightsteelblue;
+}
+
+.UserProfileHeader {
+  text-align: center;
+}
+.dashBoard table,
+td,
+th {
+  border: 1px solid black;
+}
+.dashBoard tr {
+  background-color: green;
+}

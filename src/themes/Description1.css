@@ -1,0 +1,66 @@
+.book1-description-container {
+  height: 500px;
+  width: 100%;
+  background-image: url("../assets/images/book1.jpg");
+  background-position: 0px 200px;
+  background-repeat: no-repeat;
+  margin-left: 600px;
+  height: 700px;
+  margin-top: -200px;
+  padding: 20px;
+}
+
+/* .book1-mainContainer {
+  background-image: linear-gradient(to top right, black, white, maroon, black, maroon, black);
+} */
+
+.book1-description-paragraph-container {
+  height: fit-content;
+  font-size: 30px;
+}
+.book1-description-paragraph {
+  background-color: black;
+  width: fit-content;
+  margin-left: 30%;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: lightblue;
+}
+.book1-description-title {
+  color: lightblue;
+  border-radius: 10px;
+  height: 120px;
+  font-size: 90px;
+  border: 2px solid black;
+  background-color: black;
+  margin-bottom: 40px;
+  margin-right: 80%;
+  width: 100%;
+}
+.book1-mainContainer {
+  /* background-image: linear-gradient(to top right, black, white, navy, black); */
+  background-image: url("../assets/images/shopping5.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 600px 80px;
+
+  /* background-size: 1500px 1000px; */
+
+  /* /* background-image: url("../assets/images/table.webp");
+  background-size: cover;
+  background-position: 0px -190px; */
+}
+.cart {
+  background-color: lightgreen;
+  color: white;
+  margin-left: 800px;
+  border-radius: 10px;
+  background-size: 150px 80px;
+  background-position: 0px -10px;
+  background-repeat: no-repeat;
+
+  background-image: url("../assets/images/cart.jpeg");
+
+  width: 10%;
+  height: 60px;
+}

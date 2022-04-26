@@ -1,0 +1,42 @@
+.FAQDisplay {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "sideBar content content"
+    "sideBar content content"
+    "sideBar content content"
+    "footer footer footer";
+}
+.FAQMainContainer {
+  /* background-color: black; */
+  background-image: url("../assets/images/faq5.jpg");
+  background-repeat: no-repeat;
+  background-size: 1500px 1600px;
+  background-position: 0px -400px;
+  height: 800px;
+  position: relative;
+}
+.FAQContainer {
+  position: absolute;
+  top: 150px;
+  left: 10px;
+  color: navy;
+  grid-area: header;
+  border-radius: 20px;
+  padding: 10px;
+  width: 50%;
+  opacity: 0.9;
+  margin-left: 350px;
+  background-color: orange;
+}
+
+@media screen and (max-width: 1200px) {
+  .FAQContainer {
+    background-color: navy;
+    color: white;
+    width: 70%;
+    margin-top: -100px;
+    margin-left: -10px;
+    grid-area: footer;
+  }
+}

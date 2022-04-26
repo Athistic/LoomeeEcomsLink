@@ -1,0 +1,23 @@
+.back-btn {
+  background-color: navy;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: -300px;
+  width: 200px;
+  height: 50px;
+}
+@media screen and (max-width: 1280px) {
+  .back-btn {
+    background-color: red;
+    margin-left: 100px;
+  }
+}
+@media screen and (max-height: 730px) {
+  .back-btn {
+    background-color: red;
+    margin-left: 100px;
+  }
+} ;

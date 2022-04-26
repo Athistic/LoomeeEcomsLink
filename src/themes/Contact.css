@@ -1,0 +1,63 @@
+.contactContainer {
+  height: 1500px;
+  background-position: 900px 200px;
+  background-repeat: no-repeat;
+}
+
+.contactsDisplay {
+  border-radius: 10px;
+  padding: 50px;
+  margin-left: 10px;
+  margin-top: 200px;
+  box-sizing: border-box;
+  width: contain;
+  height: contain;
+  background-color: black;
+  margin-top: 300px;
+  color: white;
+}
+
+.contactMainHead {
+  margin-left: 700px;
+  color: black;
+}
+.contactUs {
+  background-image: url("../assets/images/contact.jpg");
+  background-repeat: no-repeat;
+  background-position: 100px -300px;
+  margin-left: -100px;
+  margin-top: 22px;
+  background-size: 2000px 700px;
+  width: 100%;
+  height: 350px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1280px) {
+  .contactsDisplay {
+    size: 2px;
+    color: red;
+    padding-right: 60px;
+  }
+
+  .mail {
+    height: 20%;
+    width: 20%;
+  }
+  .facebook {
+    height: 20%;
+    width: 20%;
+  }
+  .twitter {
+    height: 20%;
+    width: 20%;
+  }
+  .instagram {
+    height: 20%;
+    width: 20%;
+  }
+  .location {
+    height: 20%;
+    width: 20%;
+  }
+}
